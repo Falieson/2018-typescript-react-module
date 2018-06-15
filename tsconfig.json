@@ -1,21 +1,32 @@
 {
   "exclude": [
+    "**/*.spec.ts",
     "dist",
-    "**/*.spec.ts"
+    "webpack",
+    "scripts",
+    ".vscode",
+    ".reference",
   ],
   "include": [
     "src"
   ],
   "compilerOptions": {
     /* Basic Options */
-    "outDir": "dist",                        /* Redirect output structure to the directory. */
+    "outDir": "dist",                         /* Redirect output structure to the directory. */
     "lib": ["esnext", "dom"],                 /* Specify library files to be included in the compilation. */
     "target": "es5",                          /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017','ES2018' or 'ESNEXT'. */
     "module": "commonjs",                     /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
     "moduleResolution": "node",               /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */
+    "jsx": "react",
     // "allowJs": true,                       /* Allow javascript files to be compiled. */
-    "declaration": true,                   /* Generates corresponding '.d.ts' file. */
-    // "baseUrl": "./src",                    /* Base directory to resolve non-absolute module names. */
+    "declaration": true,                      /* Generates corresponding '.d.ts' file. */
+    "baseUrl": ".",                           /* Base directory to resolve non-absolute module names. */
+    "paths": {
+      "*": [
+        "./node_modules/*",
+        "./src/types/*"
+      ]
+    },
     // "paths": {                             /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */
     //   "*": [
     //     "*",
