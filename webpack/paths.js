@@ -10,7 +10,7 @@ const srcPath = path.resolve(rootPath, 'src')
 
 const build = {
   _: buildPath,
-  client: path.resolve(buildPath, 'client'),
+  client: path.resolve(buildPath),
 }
 
 const src = {

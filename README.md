@@ -30,15 +30,16 @@ This starter kit is a launching point for TS React module development. Running t
 
 ### Core
 
-- [ ] 🚀  ES2018+ support syntax that is stage-3 or later in the TC39 process.
-- [ ] 🎛  Preconfigured to support development and optimized production builds
-- [ ] 🎶  `typescript` incremental returns reducing development bugs
-- [ ] 🚦  `tslint` configured for strict, consistent, code style
+- [x] 🚀  ES2018+ support syntax that is stage-3 or later in the TC39 process.
+- [x] 🎛  Preconfigured to support development and optimized production builds
+- [x] 🎶  `typescript` incremental returns reducing development bugs
+- [x] :guardsman:  Declaration file for TS included with the distribution
+- [x] 🚦  `tslint` configured for strict, consistent, code style
 
 ### React
 
-- [ ] :dragon:  React 16+
-- [ ] :space_invader: HMR reloads the Changed Code w/o refreshing the entire page
+- [x] :dragon:  React 16+
+- [x] :space_invader: HMR reloads the Changed Code w/o refreshing the entire page
 - [ ] :gem:  `apollo-client` w/ `link-state` instead of `react-redux`
 
 ### Tests
@@ -51,17 +52,17 @@ This starter kit is a launching point for TS React module development. Running t
 - [x] 📦  All source is bundled using Webpack v4
 - [x] 🌟  webpack for dev, prod, common
 - [x] 🚦  `ts-loader` for compiling typescript
-- [ ] 💦  babel-loader for additional polyfills (browser support)
+- [x] 💦  babel-loader for additional polyfills (browser support)
 - [ ] 😎  HappyPack
 - [ ] 🤖  Auto generated Vendor DLL for smooth development experiences
 - [ ] 🍃  Tree-shaking
 
 ### Utils
 
-- [ ] 🎮  `nps` node-package-scripts removes the limitation of package.json enabling JS & //comments .  Modify `/package-scripts.js` and use `nps <command>` instead of `npm run <command>`.
-- [ ] 🙌  `commitizen` to help us generate beautifully formatted and consistent commit messages.
-- [ ] 😹  `cz-emoji` is a plugin for commitizen that adds emoji to the commit template.
-- [ ] 🏆  `standard-version` is a replacement for `npm version` with automatic CHANGELOG generation
+- [x] 🎮  `nps` node-package-scripts removes the limitation of package.json enabling JS & //comments .  Modify `/package-scripts.js` and use `nps <command>` instead of `npm run <command>`.
+- [x] 🙌  `commitizen` to help us generate beautifully formatted and consistent commit messages.
+- [x] 😹  `cz-emoji` is a plugin for commitizen that adds emoji to the commit template.
+- [x] 🏆  `standard-version` is a replacement for `npm version` with automatic CHANGELOG generation
 - [ ] ✅  `commitlint` validates commit messages to follow commitizen patterns
 
 ## Getting started
